@@ -17,7 +17,7 @@ FORCE_PG_GVM_VERSION=""                              # see https://github.com/gr
 FORCE_GSA_VERSION=""                                 # see https://github.com/greenbone/gsa
 FORCE_GSAD_VERSION=""                                # see https://github.com/greenbone/gsad
 FORCE_OPENVAS_SMB_VERSION=""                         # see https://github.com/greenbone/openvas-smb
-FORCE_OPENVAS_SCANNER_VERSION=""                     # see https://github.com/greenbone/openvas-scanner
+FORCE_OPENVAS_SCANNER_VERSION="23.9.0"  # issue 9 workaround  # see https://github.com/greenbone/openvas-scanner 
 FORCE_OSPD_OPENVAS_VERSION=""                        # see https://github.com/greenbone/ospd-openvas
 FORCE_OPENVAS_DAEMON=$FORCE_OPENVAS_SCANNER_VERSION  # Uses same source as scanner
 
